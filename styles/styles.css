@@ -29,3 +29,30 @@ footer {
     text-align: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+/* Class Selectors */
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+main img {
+    /* you most likely will have other declarations here */
+    float: right;
+}
+
+
+
