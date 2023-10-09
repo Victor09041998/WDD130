@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=caveat');
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'RocknRoll+One&display', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ddc5c5;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+nav a {
+    color: #08da94;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #16dfe6;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.rafting-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rafting-images img {
+    max-width: 200px;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: #3498db;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    max-width: 20px;
+    vertical-align: middle;
+}
