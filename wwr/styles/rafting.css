@@ -31,10 +31,18 @@ header {
 }
 
 nav {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    padding: 0;
 }
 
 .nav li {
+    margin-right: 20px;
     flex: 1 1 100%;
 }
 
