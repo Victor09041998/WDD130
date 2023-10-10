@@ -71,7 +71,7 @@ main {
 
 h1 {
     font-size: 2rem;
-    position: absolute;
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
 }
 
