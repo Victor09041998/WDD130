@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: #007BFF;
     color: white;
     margin: 1rem auto;
     display: grid;
@@ -22,6 +22,8 @@ header {
     border-bottom: 1px solid #ccc;
     align-items: center;
     max-width: 1000px;
+    padding: 20px 0;
+    justify-content: space-between;
 }
 
 .logo img {
