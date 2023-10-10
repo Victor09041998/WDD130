@@ -140,3 +140,29 @@ footer img {
     max-height: 20px;
     vertical-align: middle;
 }
+
+.adventures {
+    text-align: center;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-gallery figure {
+    text-align: center; 
+    margin: 0; 
+}
+
+.image-gallery img {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto;
+}
+
+.image-gallery figcaption {
+    margin-top: 10px;
+}
+
