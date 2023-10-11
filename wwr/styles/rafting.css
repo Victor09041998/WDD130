@@ -17,11 +17,11 @@ header {
     background-color: #007BFF;
     margin: 1rem auto;
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 120px 1fr 2fr;
     border-bottom: 1px solid #ccc;
     align-items: center;
     max-width: 1000px;
-    padding: 20px;
+    padding: 20px 0;
     justify-content: space-between;
 }
 
@@ -44,6 +44,8 @@ nav {
 
 .nav li {
     margin-right: 20px;
+    flex: 1 1 100%;
+    display: inline;
 }
 
 .nav ul {
