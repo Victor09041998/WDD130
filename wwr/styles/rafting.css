@@ -75,8 +75,8 @@ main {
     padding: 20px;
 }
 
-.hero {
-    position: relative;
+.hero div {
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
     color: #16dfe6;
     text-align: center;
