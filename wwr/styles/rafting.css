@@ -166,7 +166,7 @@ footer {
 footer p {
     font-size: 1rem;
     margin: 0;
-    position: relative;
+    position: absolute;
 }
 
 footer a {
