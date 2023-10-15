@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML and CSS Quiz</title>
+    <link rel="stylesheet" type="text/css" href="styles/quiz.css">
+</head>
+<body>
+    <h1>HTML and CSS Quiz</h1>
+    <form action="submit_quiz.php" method="post">
+        <div>
+            <label for="q1">Question 1: What is the box model in CSS, and how does it work?</label>
+            <input type="text" id="q1" name="q1" required>
+        </div>
+
+        <div>
+            <label for="q2">Question 2: State one difference between CSS Flexbox and CSS Grid layout. When would you use one over the other?</label>
+            <textarea id="q2" name="q2" rows="4" required></textarea>
+        </div>
+
+        <div>
+            <label for="q3">Question 3: Select an option</label>
+            <select id="q3" name="q3" required>
+                <option value="" selected disabled>Choose One ...</option>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+                <option value="both">Both HTML and CSS</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Which HTML element is used to define the structure of an HTML document?</p>
+
+            <input type="radio" id="answer1" name="answer" value="html">
+            <label for="answer1">HTML</label><br>
+
+            <input type="radio" id="answer2" name="answer" value="head">
+            <label for="answer2">HEAD</label><br>
+
+            <input type="radio" id="answer3" name="answer" value="body">
+            <label for="answer3">BODY</label><br>
+            
+            <input type="radio" id="answer4" name="answer" value="div">
+            <label for="answer4">DIV</label><br>
+
+        </div>
+
+        <button type="submit">Submit Quiz</button>
+    </form>
+</body>
+</html>
