@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact Us - Rafting Adventures">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="rafting.css">
+    <title>Contact Us - Rafting Adventures</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Company Logo" class="site-logo">
+        <h1>White Water Rafting</h1>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="trip.html">Trips</a></li>
+            <li><a href="contact-us.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="company-info">
+            <h2>Contact Information</h2>
+            <address>
+                <p>I-10, Whitewater</p>
+                <p>CA 92282</p>
+            </address>
+            <p>Phone: (555) 123-4567</p>
+            <p>Email: info@raftingadventures.com</p>
+            <div id="google-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21346.635500778146!2d-116.67525659394028!3d33.92504425609322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db3d84b866cfa1%3A0x2766785ec66a1c95!2sWhitewater%20Rest%20Area%20-%20Westbound%20-%20Riverside%20County!5e1!3m2!1sen!2sng!4v1697448941241!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <!-- Employee profile images with captions -->
+        </section>
+
+        <section id="contact-form">
+            <h2>Contact Form</h2>
+            <form action="submit_contact.php" method="post">
+                <label for="user-name">Your Name:</label>
+                <input type="text" id="user-name" name="user-name" required>
+                
+                <label for="user-email">Your Email:</label>
+                <input type="email" id="user-email" name="user-email" required>
+                
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <input type="radio" id="general-inquiry" name="message-purpose" value="General Inquiry">
+                    <label for="general-inquiry">General Inquiry</label>
+
+                    <input type="radio" id="reservation-question" name="message-purpose" value="Reservation Question">
+                    <label for="reservation-question">Reservation Question</label>
+
+                    <input type="radio" id="website-suggestion" name="message-purpose" value="Website Suggestion">
+                    <label for="website-suggestion">Website Suggestion</label>
+                </fieldset>
+                
+                <label for="user-message">Your Message:</label>
+                <textarea id="user-message" name="user-message" required></textarea>
+                
+                <input type="checkbox" id="subscribe-newsletter" name="subscribe-newsletter" value="yes">
+                <label for="subscribe-newsletter">Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©2024 🌴Rafting Site Document 🌴 Godspower Victor Uduma 🌴 WWD130</p>
+    </footer>
+</body>
+</html>

@@ -215,3 +215,110 @@ footer img {
     margin-top: 10px;
 }
 
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Apply a background color and font to the entire page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header area with a background color, text color, and padding */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+}
+
+/* Center align text within the header */
+header h1 {
+    text-align: right;
+    width: 100%;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Center the navigation links horizontally */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+/* Style the main content area with some spacing and padding */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the contact information section */
+#company-info {
+    margin-bottom: 20px;
+}
+
+/* Style the employee profile section */
+#employee-profiles {
+    margin-bottom: 20px;
+}
+
+/* Style the contact form */
+#contact-form form {
+    margin-bottom: 20px;
+}
+
+/* Style form labels, inputs, and textareas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Style radio buttons */
+input[type="radio"] {
+    margin-right: 3px;
+}
+
+/* Style the checkbox */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Change button background color on hover */
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
