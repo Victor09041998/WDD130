@@ -135,7 +135,7 @@ section {
 
 h2 {
     font-size: 1.8rem;
-    color: var(--secondary-color);
+    color: #106334;
 }
 
 p {
@@ -261,7 +261,7 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #a0cbe4;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -321,4 +321,10 @@ button[type="submit"] {
 /* Change button background color on hover */
 button[type="submit"]:hover {
     background-color: #0056b3;
+}
+
+img {
+    max-width: 200px;
+    max-height: 150px;
+    display: flex;
 }
