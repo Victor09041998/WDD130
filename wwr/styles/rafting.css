@@ -1,5 +1,13 @@
+/* Import the Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=RocknRoll+One&display=swap');
 
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and font to the entire page */
 :root {
     --primary-color: #3498db;
     --secondary-color: #2ecc71;
@@ -7,13 +15,15 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     padding: 0;
     background-color: #646a99;
 }
 
+/* Style the header area with a background color, text color, and padding */
 header {
     background-color: #007BFF;
+    color: #fff;
     margin: 1rem auto;
     display: grid;
     grid-template-columns: 120px 1fr 2fr;
@@ -22,27 +32,32 @@ header {
     max-width: 1000px;
     padding: 20px 0;
     justify-content: space-between;
+    text-align: center;
 }
 
+/* Style the logo */
 .logo img {
     margin: 0 0.25rem 0 1rem;
     width: 64px;
     height: auto;
 }
 
+/* Style the navigation menu */
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .nav {
     list-style: none;
     display: flex;
     padding: 0;
+    justify-content: center;
 }
 
 .nav li {
-    margin-right: 20px;
+    margin: 10px;
     flex: 1 1 100%;
     display: inline;
 }
@@ -67,14 +82,13 @@ nav {
     text-decoration: underline;
 }
 
-.logo {
-    width: 100px;
-}
-
+/* Style the main content */
 main {
     padding: 20px;
+    text-align: center;
 }
 
+/* Style the hero section */
 .hero div {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.5);
@@ -92,28 +106,11 @@ main {
 h1 {
     font-size: 2rem;
     position: relative;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif';
     text-align: right;
-    
 }
 
-article {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-article img {
-    float: right;
-    margin-left: 20px;
-    max-width: 200px;
-}
-
+/* Style other sections as needed */
 section {
     margin: 40px 0;
 }
@@ -154,6 +151,7 @@ p {
     max-width: 200px;
 }
 
+/* Style the footer */
 footer {
     background-color: var(--primary-color);
     color: #090a0a;
@@ -194,6 +192,7 @@ footer img {
     text-align: center;
 }
 
+/* Style the image gallery */
 .image-gallery {
     display: flex;
     justify-content: space-between;
@@ -213,119 +212,4 @@ footer img {
 
 .image-gallery figcaption {
     margin-top: 10px;
-}
-
-/* Reset some default browser styles */
-body, h1, h2, p {
-    margin: 0px;
-    padding: 0px;
-}
-
-/* Apply a background color and font to the entire page */
-body {
-    background-color: #f7f7f7;
-    font-family: Arial, sans-serif;
-}
-
-/* Style the header area with a background color, text color, and padding */
-header {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 0px;
-    width: 100%;
-}
-
-/* Center align text within the header */
-header h1 {
-    text-align: right;
-    width: 150%;
-}
-
-/* Style the navigation menu */
-nav {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-/* Center the navigation links horizontally */
-nav a {
-    text-decoration: none;
-    color: #fff;
-    margin: 0 15px;
-}
-
-/* Style the main content area with some spacing and padding */
-main {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #a0cbe4;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Style the contact information section */
-#company-info {
-    margin-bottom: 20px;
-}
-
-/* Style the employee profile section */
-#employee-profiles {
-    margin-bottom: 20px;
-}
-
-/* Style the contact form */
-#contact-form form {
-    margin-bottom: 20px;
-}
-
-/* Style form labels, inputs, and textareas */
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 80%;
-    padding: 10px;
-    border: 1px solid #1d1b1b;
-    border-radius: 3px;
-    margin-bottom: 10px;
-}
-
-/* Style radio buttons */
-input[type="radio"] {
-    margin-right: 3px;
-}
-
-/* Style the checkbox */
-input[type="checkbox"] {
-    margin-right: 5px;
-}
-
-/* Style the submit button */
-button[type="submit"] {
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-/* Change button background color on hover */
-button[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-img {
-    max-width: 300px;
-    max-height: 150px;
-    display: grid;
-    position: relative;
 }
