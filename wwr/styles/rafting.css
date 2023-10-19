@@ -33,7 +33,6 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
-    text-align: right;
 }
 
 .nav {
@@ -45,13 +44,14 @@ nav {
 .nav li {
     margin-right: 20px;
     flex: 1 1 100%;
-    display: flex;
+    display: inline;
 }
 
 .nav ul {
     list-style: none;
     padding: 0;
     display: flex;
+    flex-direction: column;
 }
 
 .nav a {
@@ -221,10 +221,32 @@ body, h1, h2, p {
     padding: 0px;
 }
 
+/* Apply a background color and font to the entire page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header area with a background color, text color, and padding */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0px;
+    width: 100%;
+}
+
 /* Center align text within the header */
 header h1 {
     text-align: right;
     width: 150%;
+}
+
+/* Style the navigation menu */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
 /* Center the navigation links horizontally */
@@ -288,7 +310,7 @@ input[type="checkbox"] {
 
 /* Style the submit button */
 button[type="submit"] {
-    background-color: #020910;
+    background-color: #007BFF;
     color: #fff;
     border: none;
     border-radius: 3px;
