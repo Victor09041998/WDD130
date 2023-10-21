@@ -19,13 +19,16 @@ header {
 }
 
 .site-logo {
-    width: 100px;
-    height: auto;
+    width: 200px;
+    height: 200px;
+    display: right;
 }
 
 h1 {
     font-size: 24px;
     margin: 10px 0;
+    display: right;
+    position: relative;
 }
 
 .navigation {
@@ -45,6 +48,7 @@ h1 {
 /* Main content styling */
 main {
     padding: 20px;
+    background-color: #b6d5e8;
 }
 
 /* Company info section */
@@ -57,14 +61,19 @@ main {
 }
 
 /* Employee profiles */
-.employee-profile {
-    margin: 110px;
+.image-column {
+    margin: 20px;
     text-align: center;
+    display: inline-block;
+    flex-direction: column; /* Display images in a row */
+    align-items: center;
 }
 
-.employee-profile img {
-    max-width: 150px;
-    height: 100px;
+.image-column img {
+    max-width: 20px;
+    height: auto;
+    margin: 10px; /* Add some spacing */
+    flex-direction: column;
 }
 
 /* Contact form styling */
@@ -126,4 +135,154 @@ footer img {
     max-width: 20px;
     max-height: 20px;
     vertical-align: middle;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, form, address {
+    margin: 0;
+    padding: 0;
+}
+
+/* Define a base font family and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.site-logo {
+    width: 100px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.navigation li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    background-color: #b6d5e8;
+}
+
+.call-to-action {
+    text-align: center;
+    margin: 20px;
+}
+
+.call-to-action p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Trip descriptions */
+.trip-description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+.image-column img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-caption p {
+    font-size: 1rem;
+}
+
+/* Trip table */
+.trip-table {
+    margin: 20px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the footer */
+footer {
+    background-color: #6d5ff0;
+    color: #090a0a;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer img {
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: middle;
+}
+
+.wireframe-link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
 }
