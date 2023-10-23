@@ -19,8 +19,8 @@ header {
 }
 
 .site-logo {
-    width:100px;
-    height: auto;
+    width:350px;
+    height: 150px;
     display: right;
 }
 
@@ -60,11 +60,11 @@ main {
     margin-bottom: 20px;
 }
 .employee-profile img {
-    display: flex;
+    display: list-item;
 }
 
 .employee-profile {
-    display: flex;
+    display: grid;
 }
 
 /* Employee profiles */
