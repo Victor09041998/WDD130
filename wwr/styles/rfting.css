@@ -207,6 +207,10 @@ footer img {
     font-size: 1rem;
 }
 
+main h1 {
+    text-align: center;
+}
+
 /* Trip table */
 .trip-table {
     margin: 20px;
